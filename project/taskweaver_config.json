@@ -2,6 +2,5 @@
   "llm.api_base": "https://api.deepseek.com",
   "llm.api_key": "sk-13b88e3a2e2d44398eb928e84dfef13a",
   "llm.model": "deepseek-chat",
-  "llm.response_format": "text",
-  "llm.top_p": 1
+  "llm.response_format": "text"
 }

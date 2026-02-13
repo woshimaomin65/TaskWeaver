@@ -218,7 +218,7 @@ class OpenAIService(CompletionService, EmbeddingService):
                             i,
                             {"role": "assistant", "content": "I get it."},
                         )
-
+            top_p = 1
             res: Any = self.client.chat.completions.create(
                 model=engine,
                 messages=messages,  # type: ignore
